@@ -25,5 +25,5 @@
 - AutoFish now has randomness (less detectable)
 - StorageESP Crash Removed.
 - .vclip fall dmg removed.
-- 5
+- BlockESP with NBT Property filtering
 - 6
