@@ -29,6 +29,7 @@
 - No-Jump-Delay Module
 - PearlPhase [5461](https://github.com/MeteorDevelopment/meteor-client/pull/5461)
 - AutoRespawn [5283](https://github.com/MeteorDevelopment/meteor-client/pull/5283)
+- SilentMine [5442](https://github.com/MeteorDevelopment/meteor-client/pull/5442)
 
 ##### Added to Existing Modules
 - Excavator: Option to pause if low durability
