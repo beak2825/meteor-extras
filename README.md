@@ -22,9 +22,11 @@
     <img src="https://img.shields.io/github/languages/code-size/beak2825/meteor-extras" alt="GitHub code size in bytes"/>
     <img src="https://img.shields.io/endpoint?url=https://ghloc.vercel.app/api/beak2825/meteor-extras/badge?filter=.java$&label=lines%20of%20code&color=blue" alt="GitHub lines of code"/>
 </div>
+<p align="center">
+  <a href="https://github.com/beak2825/meteor-extras/releases/tag/1.21.11"><img src="https://img.shields.io/badge/MC-1.21.11-brightgreen.svg" alt="Minecraft"/></a>
+</p>
 
-
-# Whats New?
+# Whats New? ([1.21.11-25 12/27/25](https://github.com/beak2825/meteor-extras/releases/tag/1.21.11))
 ##### New Modules
 - PacketLogger Module
 - Added BetterLocator module. (display player heads instead of dots, show names, player dist + directions)
