@@ -30,6 +30,7 @@
 - PearlPhase [5461](https://github.com/MeteorDevelopment/meteor-client/pull/5461)
 - AutoRespawn [5283](https://github.com/MeteorDevelopment/meteor-client/pull/5283)
 - SilentMine [5442](https://github.com/MeteorDevelopment/meteor-client/pull/5442)
+- IconChanger [5010](https://github.com/MeteorDevelopment/meteor-client/pull/5010)
 
 ##### Added to Existing Modules
 - Excavator: Option to pause if low durability
