@@ -28,3 +28,4 @@
 - BlockESP with NBT Property filtering
 - Added BetterLocator module. (display player heads instead of dots, show names, player dist + directions)
 - Altening Alts now work...
+- NoMissDelay Module (Will cancel an attack if it will miss, so you can crit)
