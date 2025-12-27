@@ -1,6 +1,6 @@
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/beak2825/meteor-client/refs/heads/master/meteorextras.png" alt="meteor-extras-logo" width="15%"/>
+<img src="https://raw.githubusercontent.com/beak2825/meteor-extras/refs/heads/master/meteorextras.png" alt="meteor-extras-logo" width="15%"/>
 </p>
 
 <h1 align="center">Meteor Extras</h1>
@@ -12,12 +12,12 @@
     <a href="https://discord.gg/bBGQZvd"><img src="https://img.shields.io/discord/689197705683140636?logo=discord" alt="Discord"/></a>
     <br>
     <img src="https://komarev.com/ghpvc/?username=beak2825-meteor-extras&label=Repo+Views" alt="Repo Views"/>
-    <img src="https://img.shields.io/github/last-commit/beak2825/meteor-client" alt="GitHub last commit"/>
-    <img src="https://img.shields.io/github/commit-activity/w/beak2825/meteor-client" alt="GitHub commit activity"/>
-    <img src="https://img.shields.io/github/contributors/beak2825/meteor-client" alt="GitHub contributors"/>
+    <img src="https://img.shields.io/github/last-commit/beak2825/meteor-extras" alt="GitHub last commit"/>
+    <img src="https://img.shields.io/github/commit-activity/w/beak2825/meteor-extras" alt="GitHub commit activity"/>
+    <img src="https://img.shields.io/github/contributors/beak2825/meteor-extras" alt="GitHub contributors"/>
     <br>
-    <img src="https://img.shields.io/github/languages/code-size/beak2825/meteor-client" alt="GitHub code size in bytes"/>
-    <img src="https://img.shields.io/endpoint?url=https://ghloc.vercel.app/api/beak2825/meteor-client/badge?filter=.java$&label=lines%20of%20code&color=blue" alt="GitHub lines of code"/>
+    <img src="https://img.shields.io/github/languages/code-size/beak2825/meteor-extras" alt="GitHub code size in bytes"/>
+    <img src="https://img.shields.io/endpoint?url=https://ghloc.vercel.app/api/beak2825/meteor-extras/badge?filter=.java$&label=lines%20of%20code&color=blue" alt="GitHub lines of code"/>
 </div>
 
 
