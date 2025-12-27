@@ -23,4 +23,7 @@
 # Whats New?
 - PacketLogger
 - AutoFish now has randomness (less detectable)
-- 3
+- StorageESP Crash Removed.
+- 4
+- 5
+- 6
