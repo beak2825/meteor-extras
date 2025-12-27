@@ -27,3 +27,4 @@
 - .vclip fall dmg removed.
 - BlockESP with NBT Property filtering
 - Added BetterLocator module. (display player heads instead of dots, show names, player dist + directions)
+- Altening Alts now work...
