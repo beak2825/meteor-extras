@@ -28,6 +28,7 @@
 - NoMissDelay Module (Will cancel an attack if it will miss, so you can crit)
 - No-Jump-Delay Module
 - PearlPhase [5461](https://github.com/MeteorDevelopment/meteor-client/pull/5461)
+- AutoRespawn [5283](https://github.com/MeteorDevelopment/meteor-client/pull/5283)
 
 ##### Added to Existing Modules
 - Excavator: Option to pause if low durability
