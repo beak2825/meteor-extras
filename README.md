@@ -12,6 +12,9 @@
     <a href="https://discord.gg/bBGQZvd"><img src="https://img.shields.io/discord/689197705683140636?logo=discord" alt="Discord"/></a>
     <br>
     <img src="https://komarev.com/ghpvc/?username=beak2825-meteor-extras&label=Repo+Views" alt="Repo Views"/>
+    <p align="center">
+      <a href="https://github.com/beak2825/meteor-extras/releases/"><img src="https://img.shields.io/github/downloads/beak2825/meteor-extras/total.svg" alt="GitHub All Releases"/></a>
+    </p>
     <img src="https://img.shields.io/github/last-commit/beak2825/meteor-extras" alt="GitHub last commit"/>
     <img src="https://img.shields.io/github/commit-activity/w/beak2825/meteor-extras" alt="GitHub commit activity"/>
     <img src="https://img.shields.io/github/contributors/beak2825/meteor-extras" alt="GitHub contributors"/>
