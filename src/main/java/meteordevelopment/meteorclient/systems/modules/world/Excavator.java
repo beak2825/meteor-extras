@@ -161,22 +161,39 @@ public class Excavator extends Module {
         }
     }
 
-    @EventHandler
-    private void onRender3D(Render3DEvent event) {
-        if (status == Status.SEL_START || status == Status.SEL_END) {
-            if (!(mc.crosshairTarget instanceof BlockHitResult result)) return;
-            event.renderer.box(result.getBlockPos(), sideColor.get(), lineColor.get(), shapeMode.get(), 0);
-        } else if (status == Status.WORKING) {
-            if (!baritone.getBuilderProcess().isActive()) {
-                baritone.getSelectionManager().removeSelection(baritone.getSelectionManager().getLastSelection());
-                status = Status.SEL_START;
-            } else toggle();
-                if (keepActive.get()) {
-                    status = Status.SEL_START;
-                } else {
-                    toggle();
-                }
-            }
-        }
-    }
+	@EventHandler
+	private void onRender3D(Render3DEvent event) {
+		// Highlight selection points while selecting
+		if (status == Status.SEL_START || status == Status.SEL_END) {
+			if (mc.crosshairTarget instanceof BlockHitResult result) {
+				event.renderer.box(
+					result.getBlockPos(),
+					sideColor.get(),
+					lineColor.get(),
+					shapeMode.get(),
+					0
+				);
+			}
+			return;
+		}
+
+		// Only handle WORKING state logic below this point
+		if (status != Status.WORKING) return;
+
+		// Check if Baritone has finished building
+		if (!baritone.getBuilderProcess().isActive()) {
+			// Remove the selection that was being built
+			baritone.getSelectionManager().removeSelection(
+				baritone.getSelectionManager().getLastSelection()
+			);
+
+			// Decide what to do next
+			if (keepActive.get()) {
+				status = Status.SEL_START;  // Go back to selecting new area
+			} else {
+				toggle();  // Turn off the module entirely
+			}
+		}
+	}
+
 }
